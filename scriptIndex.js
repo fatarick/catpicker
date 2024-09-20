@@ -9,9 +9,9 @@ function decline(){
     console.log("Declined");
 }
 
-function skip(){
+function reject(){
     location.reload();
-    console.log("Skipped");
+    console.log("Rejected");
 }
 
 function redirectToAbout(){
