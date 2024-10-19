@@ -4,9 +4,9 @@ function accept(){
     console.log("Accepted");
 }
 
-function decline(){
+function skip(){
     location.reload();
-    console.log("Declined");
+    console.log("Skipped!");
 }
 
 function reject(){
