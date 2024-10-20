@@ -77,7 +77,7 @@ p1 {
 }
 
 #accepted {
-    color: lightgreen;
+    color: rgb(33, 153, 31);
     border-radius: 30px;
     padding: 10px 24px;
     margin: 4px 2px;
