@@ -45,6 +45,11 @@ button {
     background-color: red;
 }
 
+#reset{
+    background-color: blue;
+    color: white
+}
+
 #accept:hover {
     background-color: lightgreen;
 }
@@ -59,6 +64,10 @@ button {
 
 #about:hover {
     background-color: lightgray;
+}
+
+#reset:hover {
+    background-color: lightblue;
 }
 
 p1 {

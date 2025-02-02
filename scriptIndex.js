@@ -30,6 +30,16 @@ function reject(){
     document.getElementById("rejected").innerHTML = "Rejected: " + rejected;
 }
 
+function reset(){
+    accepted = 0;
+    skipped = 0;
+    rejected = 0;
+    reload();
+    document.getElementById("accepted").innerHTML = "Accepted: " + accepted;
+    document.getElementById("skipped").innerHTML = "Skipped: " + skipped;
+    document.getElementById("rejected").innerHTML = "Rejected: " + rejected;
+}
+
 function redirectToAbout(){
     location.href = "about.html";
 }
