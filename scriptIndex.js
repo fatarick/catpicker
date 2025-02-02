@@ -3,9 +3,11 @@ var skipped = 0;
 var rejected = 0;
 
 function reload(){
-    var images = document.getElementsByTagName("catimg");
+    var images = document.getElementsByTagName("img");
     for (var i = 0; i < images.length; i++) {
-        images[i].src = "https://cataas.com/cat";
+        if (images[i].classList.contains("catimg")) {
+            images[i].src = "https://cataas.com/cat";
+        }
     }
 }
 
@@ -38,8 +40,4 @@ function reset(){
     document.getElementById("accepted").innerHTML = "Accepted: " + accepted;
     document.getElementById("skipped").innerHTML = "Skipped: " + skipped;
     document.getElementById("rejected").innerHTML = "Rejected: " + rejected;
-}
-
-function redirectToAbout(){
-    location.href = "about.html";
 }
