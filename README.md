@@ -3,9 +3,9 @@
 
 # congrats
 
-congrats to "Kevin" that he created cats random images site.
+thanks to "Kevin" that he created cats random images site.
 
-congrats to GitHub Copilot for helping to code.
+thanks to GitHub Copilot for helping to code.
 
 # plans?
 Counter (Finished):
